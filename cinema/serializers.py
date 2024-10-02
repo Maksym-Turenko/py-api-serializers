@@ -88,6 +88,7 @@ class MovieSessionSerializer(serializers.ModelSerializer):
             "cinema_hall_capacity",
         ]
 
+
 class MovieSessionCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = MovieSession
